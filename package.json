@@ -1,0 +1,23 @@
+{
+  "name": "intro_to_backend",
+  "version": "1.0.0",
+  "description": "Getting started with backend",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node Backend/src/index.js",
+    "dev": "nodemon Backend/src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/nakayizakevina/Intro_to_backend.git)"
+  },
+  "author": "Kevina",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.3.0",
+    "nodemon": "^3.1.14"
+  }
+}
